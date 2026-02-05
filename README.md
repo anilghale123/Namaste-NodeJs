@@ -121,3 +121,48 @@ libuv -->   epoll (linux)  --> scalable i/o event notification mechanism  --> fi
 - **Event-driven** means callbacks/promises are scheduled by the event loop when the call stack is free.
 - **Non-blocking I/O** allows Node to handle many concurrent operations without waiting on slow tasks.
 - **CJS vs ESM**: CJS uses `require()`; ESM uses `import` and runs in strict mode by default.
+
+
+# Database
+
+- organized collection of data
+- dbms -- > software which interacts with end users, app, and the database itself to capture and analyze the data
+
+types of database
+1) Relational DB  - mySql  - dvp by Michael Widenius, postgresSQL
+2) NoSql DB - MongoDB
+3) In memory DB - Redis
+4) Distributed SQL DB - Cockroach DB
+5) Time series DB - Influx DB
+6) OO DB - db40
+7) Graph DB - db40
+8) Hierarchial DB - Neo4j
+9) Network DB - IDMS
+10) Cloud DB - Amazon RDS
+
+# RDBMS - Relational (70's 80's) -- My SQL
+EF Codd - Codd's 12 Rules (0-12)  --> if followed called relational db
+
+- table , rows, columns.
+- structured data
+- fixed schema
+- sql
+- tough horizontal scaling
+- relationships - foregin keys + joins
+- read- heavy apps, transaction workloads
+- example banking apps
+
+# NoSQL (MongoDB)
+
+- Collection, document, fields
+- Unstructured data
+- flexible schema
+- Mongo (MQL), Neo4J ( Cypher )
+- Easy to scaler horizontally + vertically
+- Nested [Relationships]
+- Real Time, Big data, distributed computing
+- Example real time analytics, social media
+
+
+
+
