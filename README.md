@@ -163,6 +163,12 @@ EF Codd - Codd's 12 Rules (0-12)  --> if followed called relational db
 - Real Time, Big data, distributed computing
 - Example real time analytics, social media
 
+# MongoDB
 
-
+- document oriented database program, cross platform
+- two ways to use
+      - get downloadable package file from official website - self manage
+      - let them manage
+- community version -- for developer
+- enterprise version -- for companies
 
