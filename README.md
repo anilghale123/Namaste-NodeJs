@@ -172,3 +172,59 @@ EF Codd - Codd's 12 Rules (0-12)  --> if followed called relational db
 - community version -- for developer
 - enterprise version -- for companies
 
+
+
+# Monolith vs Microservices
+
+- Monolith
+   -- backend , db, frontend, auth, email, analytics all are in one architecture
+   - dev speed -- faster in microservices
+   - code repo -- 
+   - scalability -- easy in microservice
+   - deployment -- can deploy diff feature small change in microservice
+   - tech stack -- 
+   - infra cost
+   - complexity
+   - fault isolation
+  - testing
+  - ownership
+  - maintainance
+  - rewamps
+  - debugging
+  - dev experience
+  
+- Microservices
+  -- multiple small services based
+  
+# devTinder
+
+- create an acc
+- login 
+- update your profile
+- feed page - explore
+- send connection req
+- see our matches
+- see the req we've sent/received
+- update your profile
+
+-- Tech planning
+- 2 microservice
+  -- frontend - react
+  -- backend - nodeJs, MongoDB
+
+  LLD
+  - db design
+  collections
+   - user - ( firstName, lastName, emailId, password, age, gender)
+   - connectionRequest - (fromUserId, toUserId, status = ('pending, accepted, rejected, blocked, ignored))
+
+# Api design { REST API }
+- GET
+- POST
+- PUT 
+- PATCH
+- DELETE
+- PATCH
+
+API REQUIRED FOR
+signup, login, profile
